@@ -14,7 +14,7 @@ app.use(authRoutes);
 app.use(cartRoutes);
 
 mongoose.connect(
-  "mongodb+srv://duadasheem:<password>@cluster0.rbyunmm.mongodb.net/",
+  "mongodb+srv://duadasheem:mRdvPdDx8pL84fR7@cluster0.rbyunmm.mongodb.net/",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
